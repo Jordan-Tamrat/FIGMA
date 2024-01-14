@@ -4,68 +4,379 @@
         padding: 0;
         box-sizing: border-box;
     }
-  body {
-    background-color: #1C1A19;
-    
+.homepage{
+    background-color: #1C1A19; 
+    background-size: 100% 100% ;
   }
 .main{
-    padding: 120px 24px 100px 24px;
-    height: 590px;
+    padding: 20vh 7vw ;
+    position: relative;
     }
-  h1{
+.Ih1{
     color: #FF6B00;
     font-family: 'Crete Round', serif;
     font-weight: 400;
-    font-size: 56px;
-    letter-spacing: 0.37px;
-    line-height: 64px;  
+    font-size: 17vw;
+    letter-spacing:3%;
+    line-height: 16vh;  
   }
-  p{
+.Ip{
     color:white;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    padding: 12px 0 ;
+    font-size: 5vw;
+    line-height: 6vh;
+    padding: 3.4vw 0 ;
    }
- h3{
+.Ih3{
     color:white;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    padding-top: 12px;
+    font-size: 7.2vw;
+    line-height: 9.7vh;
+    padding-top: 3.4vw;
    }
 .header{
     display:flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     background: #3C3A39;
-    height: 92px;
-    
+    height: 13vw;  
 }
-img{
-    width: 40px;
-    height: 40px;
-    padding: 8px;
-
+.images{
+    display:flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+.Iimg{
+    width: 10.7vw;
+    height: 10.7vw;
+    padding: 2.14vw; 
 }
 .logo{
     padding: 10px 12px;
-    margin-left: 12px;
-    font-weight: 550;
-    
+    margin-left: 3.6vw;
+    font-weight: 550;   
 }
 .menu{
-    margin-right: 12px;
+    margin-right: 3.6vw;
 }
 .illustration{
-    width: 150px;
-    height:350px;
-    padding: 0px;
     position: absolute;
-    right:0px;
-    bottom: -135px;
-    
+    right:0vw;
+    bottom:0vw;
+    max-width: 25%;
+    height: 50vh;
+} 
+
+                                   /* SECTION TWO */          
+
+.secondpage{
+    background-color: white; 
+  }
+.IIheader{
+    margin: 20.25vw 5.1vw 20.25vw 5.1vw;
+    padding: 5vw 2.6vw 10vw 0;
+    text-align: center;
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    font-size: 10vw;
+    line-height: 12vh; 
+    border-bottom: 0.1vw solid #212121;
 }
+.IIimg{
+margin: 0px 4.8vw 0px 4.8vw;
+width: 90%;
+}
+.IIcontainer{
+    padding: 3vh 4.8vw ;
+}
+.IIh2{
+font-family: 'Crete Round', serif;
+font-weight: 400;
+font-size: 8vw;
+line-height: 10vh; 
+color: #091E42;
+margin: 5vw 0;
+}
+.IItext{
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 4vw;
+line-height: 5vh;
+color: #091E42;
+}
+.IIbutton{
+background:#FF6B00;
+padding: 12px;
+color: white;
+font-family: 'Inter', sans-serif;
+font-weight: 700;
+font-size: 3.8vw;
+line-height: 5.5vw;
+letter-spacing: 3%;
+border: 0.1vw solid #FF6B00;
+}
+.tag{
+display: flex;
+justify-content: space-between;
+color: #091E42;
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 3.2vw;
+line-height: 6vw;
+}
+.element{
+border: 0.1vw solid #8993A4 ;
+padding: 3vw 4vw;;
+margin: 3.5vw 0;
+}
+
+                                   /* SECTION THREE */
+
+.thirdpage{
+    background-image: url('Icons/Background.png') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    margin: 0 4.2vw ;
+}
+.IIIcontainer{
+    padding: 3vh 4.8vw ;
+}
+.IIIh1{
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    font-size: 10vw;
+    line-height: 12vh; 
+    color: white;
+    margin-top: 58px;
+    width: 95%;
+}
+.IIIp{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 5vw;
+    line-height: 6.5vh;
+    color: white; 
+    width: 95%;
+}
+.language{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 5vw;
+    line-height: 6vh;
+    width: 100%;
+}
+.component{
+    background-color:rgba(255, 255, 255, 0.24);
+    padding: 3vh 4.5vw;
+    margin: 12px 0;
+}
+.IIIbutton{
+    background:#FF6B00;
+    padding: 12px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 5.5vw;
+    line-height: 24px;
+    letter-spacing: 3%;
+    text-align: center;
+    border: 1px solid #FF6B00;
+    width: 100%;
+}
+.IIIlast{
+    margin-bottom: 18vh;
+}  
+   
+                                   /* SECTION FOUR */   
+
+ .fourthpage{
+    background-color: #1C1A19;
+    padding-top: 8vh;
+    padding-bottom: 31vh;
+    position: relative;
+    background-size: 100% 100% ;
+}
+.IVh1{
+    color: #FF6B00;
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    font-size: 20vw;
+    letter-spacing: 2.5%;
+    line-height: 24vh;  
+}
+.IVp{
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 4.5vw;
+    line-height: 6vh;
+    color: white; 
+    width: 100%;
+    margin-bottom: 7vw;
+}
+.IVbutton{
+    background:#FF6B00;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 4vw;
+    line-height: 6.5vh;
+    text-align: center;
+    border: 1px solid #FF6B00;
+    width: 40%;
+   padding: 1vw;
+}
+.IVimg{
+    position: absolute;
+    right: 0;
+    top: 75vh; 
+    max-width: 50%;
+    height: 35%;
+}
+.IVcontainer{
+    padding: 3vh 4.8vw ;
+}
+.IVhr{
+    border: 0.1vh thin rgba(255, 255, 255, 1);
+    width: 90%;
+    margin: 0 4.2vw ;
+    position: relative;
+    top:30vh;
+}
+   
+                                    /* SECTION FIVE */ 
+
+.fifthpage{
+    background-color: #1C1A19;
+    padding-top: 8vh;
+    padding-bottom: 7vh;
+    background-size: 100% 100% ;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 5vw;
+    line-height: 10vh;
+    color: white; 
+    text-align: center;
+}
+ul{
+    list-style:none ;
+}
+.diamond{
+    width:4.54vw;
+    height:4.54vw;
+    background-color: #FF6B00;
+    transform: rotate(45deg);
+}
+.rectangle{
+    width:4.54vw;
+    height:4.54vw;
+    background-color: #FF6B00;
+}
+.circle{
+    width:4.54vw;
+    height:4.54vw;
+    border-radius: 50%;
+    background-color: #FF6B00;
+}
+.Vcontainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+   margin: 0 9vw;
+}
+.left{
+    margin: 0 -3vw;
+}
+                                    
+                                     /* SECTION SIX */
+
+.lastpage{
+    background-color: white;
+    padding-top: 8vh;
+    background-size: 100% 100% ;
+    font-family: 'Inter', sans-serif;
+}
+.VIp{
+    font-weight: 700;
+    font-size: 8.8vw;
+    line-height: 12.5vw;
+    color: rgba(23, 43, 77, 1);
+    text-align: center;
+    margin-bottom: 14vw;
+}
+input{
+    display: block;
+    font-weight: 400;
+    font-size: 3.7vw;
+    line-height: 7vw;
+    color: rgba(151, 148, 147, 1);
+    border: none;
+    border-bottom: 1px solid gray;
+    margin:5vw 0;
+    width: 100%;
+    padding: 4vw;
+}
+textarea{
+    font-weight: 400;
+    font-size: 3.9vw;
+    line-height: 7vw;
+    font-style: italic;
+    color:rgba(60, 58, 57, 1);
+    background-color: rgba(251, 248, 247, 1);
+    width: 100%;
+    border: none;
+    padding: 3vw;
+}
+.VIbutton{
+    background:#FF6B00;
+    padding: 4vw;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 5.2vw;
+    line-height: 7.27vw;
+    letter-spacing: 3%;
+    text-align: center;
+    border: 1px solid #FF6B00;
+    width: 50%;
+    margin: 5vw 24vw 12vw 24vw;
+}
+.VIimages{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    border-top: 1px solid rgba(223, 225, 230, 1);
+    padding: 3vw 0;
+}
+.VIimg{
+    width: 10.7vw;
+    height: 10.7vw;
+    padding: 2.14vw;  
+}
+.lastshape{
+    width:40vw;
+    height: 1.5vw;
+    background-color: rgba(13, 21, 30, 1);
+    margin: 5vw 33vw 3vw 33vw;
+    border-radius: 3vw;
+}
+.VIcontainer{
+    padding: 3vh 4.8vw ;
+} 
+.message{
+    position: relative;                  
+}
+.resizer{
+    position: absolute;
+    right: -2vw;
+    bottom: -1vw;
+    padding: 1.8vw;
+    width: 9%;
+}                     
 }
